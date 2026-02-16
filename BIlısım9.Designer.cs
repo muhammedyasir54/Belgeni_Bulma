@@ -1,6 +1,6 @@
 ﻿namespace belge
 {
-    partial class Form1
+    partial class BIlısım9
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
+            buttonBelgeBulucu = new Button();
             label2 = new Label();
             label3 = new Label();
-            label4 = new Label();
             label5 = new Label();
-            label6 = new Label();
+            label4 = new Label();
             label7 = new Label();
-            label8 = new Label();
+            label6 = new Label();
             label9 = new Label();
-            label10 = new Label();
+            label8 = new Label();
             label11 = new Label();
-            label12 = new Label();
+            label10 = new Label();
             label13 = new Label();
-            label14 = new Label();
+            label12 = new Label();
             label15 = new Label();
-            label16 = new Label();
+            label14 = new Label();
             label17 = new Label();
+            label16 = new Label();
             textBoxEdebıyat = new TextBox();
             textBoxMat = new TextBox();
             textBoxIngılızce = new TextBox();
@@ -56,28 +56,29 @@
             textBoxDınBılgıs = new TextBox();
             label18 = new Label();
             label19 = new Label();
-            textBoxDısıplınMıktarı = new TextBox();
-            textBoxMeslekıGelısım = new TextBox();
-            textBoxBılgısayTasarımUy = new TextBox();
-            textBoxProgramlamaTemellerı = new TextBox();
-            textBoxBılısımTekno = new TextBox();
-            textBoxUzay = new TextBox();
-            textBoxSecmelıDın = new TextBox();
-            textBoxSanat = new TextBox();
             textBoxBeden = new TextBox();
-            buttonBelgeBulucu = new Button();
+            textBoxSanat = new TextBox();
+            textBoxSecmelıDın = new TextBox();
+            textBoxUzay = new TextBox();
+            textBoxBılısımTekno = new TextBox();
+            textBoxProgramlamaTemellerı = new TextBox();
+            textBoxBılgısayTasarımUy = new TextBox();
+            textBoxMeslekıGelısım = new TextBox();
+            textBoxDısıplınMıktarı = new TextBox();
             labelSonucu = new Label();
+            label1 = new Label();
             SuspendLayout();
             // 
-            // label1
+            // buttonBelgeBulucu
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 20F);
-            label1.Location = new Point(289, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(157, 37);
-            label1.TabIndex = 0;
-            label1.Text = "Hoşgeldiniz";
+            buttonBelgeBulucu.Font = new Font("Segoe UI", 20F);
+            buttonBelgeBulucu.Location = new Point(3, 302);
+            buttonBelgeBulucu.Name = "buttonBelgeBulucu";
+            buttonBelgeBulucu.Size = new Size(230, 112);
+            buttonBelgeBulucu.TabIndex = 37;
+            buttonBelgeBulucu.Text = "Genel Ortalaman ve Belgen ";
+            buttonBelgeBulucu.UseVisualStyleBackColor = true;
+            buttonBelgeBulucu.Click += buttonBelgeBulucu_click;
             // 
             // label2
             // 
@@ -99,16 +100,6 @@
             label3.TabIndex = 2;
             label3.Text = "Matematik";
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 13F);
-            label4.Location = new Point(3, 147);
-            label4.Name = "label4";
-            label4.Size = new Size(46, 25);
-            label4.TabIndex = 4;
-            label4.Text = "Fizik";
-            // 
             // label5
             // 
             label5.AutoSize = true;
@@ -119,15 +110,15 @@
             label5.TabIndex = 3;
             label5.Text = "İngilizce";
             // 
-            // label6
+            // label4
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Segoe UI", 13F);
-            label6.Location = new Point(3, 197);
-            label6.Name = "label6";
-            label6.Size = new Size(69, 25);
-            label6.TabIndex = 6;
-            label6.Text = "Biyoloji";
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 13F);
+            label4.Location = new Point(3, 147);
+            label4.Name = "label4";
+            label4.Size = new Size(46, 25);
+            label4.TabIndex = 4;
+            label4.Text = "Fizik";
             // 
             // label7
             // 
@@ -139,15 +130,15 @@
             label7.TabIndex = 5;
             label7.Text = "Kimya";
             // 
-            // label8
+            // label6
             // 
-            label8.AutoSize = true;
-            label8.Font = new Font("Segoe UI", 13F);
-            label8.Location = new Point(3, 247);
-            label8.Name = "label8";
-            label8.Size = new Size(84, 25);
-            label8.TabIndex = 8;
-            label8.Text = "Coğrafya";
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 13F);
+            label6.Location = new Point(3, 197);
+            label6.Name = "label6";
+            label6.Size = new Size(69, 25);
+            label6.TabIndex = 6;
+            label6.Text = "Biyoloji";
             // 
             // label9
             // 
@@ -159,15 +150,15 @@
             label9.TabIndex = 7;
             label9.Text = "Tarih";
             // 
-            // label10
+            // label8
             // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI", 13F);
-            label10.Location = new Point(342, 75);
-            label10.Name = "label10";
-            label10.Size = new Size(186, 25);
-            label10.TabIndex = 10;
-            label10.Text = "Beden Eğitimi ve Spor";
+            label8.AutoSize = true;
+            label8.Font = new Font("Segoe UI", 13F);
+            label8.Location = new Point(3, 247);
+            label8.Name = "label8";
+            label8.Size = new Size(84, 25);
+            label8.TabIndex = 8;
+            label8.Text = "Coğrafya";
             // 
             // label11
             // 
@@ -179,15 +170,15 @@
             label11.TabIndex = 9;
             label11.Text = "Din Kültürü ve Ahlak Bilgisi";
             // 
-            // label12
+            // label10
             // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI", 13F);
-            label12.Location = new Point(342, 125);
-            label12.Name = "label12";
-            label12.Size = new Size(204, 25);
-            label12.TabIndex = 12;
-            label12.Text = "Seçmeli Temel Din Bilgisi";
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 13F);
+            label10.Location = new Point(342, 75);
+            label10.Name = "label10";
+            label10.Size = new Size(186, 25);
+            label10.TabIndex = 10;
+            label10.Text = "Beden Eğitimi ve Spor";
             // 
             // label13
             // 
@@ -199,15 +190,15 @@
             label13.TabIndex = 11;
             label13.Text = "Seçmeli Sanat Eğitimi";
             // 
-            // label14
+            // label12
             // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Segoe UI", 13F);
-            label14.Location = new Point(342, 175);
-            label14.Name = "label14";
-            label14.Size = new Size(232, 25);
-            label14.TabIndex = 14;
-            label14.Text = "Bilişim Teknolojileri Temelleri";
+            label12.AutoSize = true;
+            label12.Font = new Font("Segoe UI", 13F);
+            label12.Location = new Point(342, 125);
+            label12.Name = "label12";
+            label12.Size = new Size(204, 25);
+            label12.TabIndex = 12;
+            label12.Text = "Seçmeli Temel Din Bilgisi";
             // 
             // label15
             // 
@@ -219,15 +210,15 @@
             label15.TabIndex = 13;
             label15.Text = "Seçmeli Astronomi ve Uzay Bilimleri";
             // 
-            // label16
+            // label14
             // 
-            label16.AutoSize = true;
-            label16.Font = new Font("Segoe UI", 13F);
-            label16.Location = new Point(342, 225);
-            label16.Name = "label16";
-            label16.Size = new Size(266, 25);
-            label16.TabIndex = 16;
-            label16.Text = "Bilgisayarlı Tasarım Uygulamaları";
+            label14.AutoSize = true;
+            label14.Font = new Font("Segoe UI", 13F);
+            label14.Location = new Point(342, 175);
+            label14.Name = "label14";
+            label14.Size = new Size(232, 25);
+            label14.TabIndex = 14;
+            label14.Text = "Bilişim Teknolojileri Temelleri";
             // 
             // label17
             // 
@@ -239,12 +230,23 @@
             label17.TabIndex = 15;
             label17.Text = "Programlama Temelleri";
             // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Font = new Font("Segoe UI", 13F);
+            label16.Location = new Point(342, 225);
+            label16.Name = "label16";
+            label16.Size = new Size(266, 25);
+            label16.TabIndex = 16;
+            label16.Text = "Bilgisayarlı Tasarım Uygulamaları";
+            // 
             // textBoxEdebıyat
             // 
             textBoxEdebıyat.Location = new Point(231, 75);
             textBoxEdebıyat.Name = "textBoxEdebıyat";
             textBoxEdebıyat.Size = new Size(100, 23);
             textBoxEdebıyat.TabIndex = 17;
+            textBoxEdebıyat.TextChanged += textBoxEdebıyat_TextChanged;
             // 
             // textBoxMat
             // 
@@ -322,54 +324,12 @@
             label19.TabIndex = 27;
             label19.Text = "Aldığın Disiplin Sayısı";
             // 
-            // textBoxDısıplınMıktarı
+            // textBoxBeden
             // 
-            textBoxDısıplınMıktarı.Location = new Point(639, 278);
-            textBoxDısıplınMıktarı.Name = "textBoxDısıplınMıktarı";
-            textBoxDısıplınMıktarı.Size = new Size(100, 23);
-            textBoxDısıplınMıktarı.TabIndex = 36;
-            // 
-            // textBoxMeslekıGelısım
-            // 
-            textBoxMeslekıGelısım.Location = new Point(639, 252);
-            textBoxMeslekıGelısım.Name = "textBoxMeslekıGelısım";
-            textBoxMeslekıGelısım.Size = new Size(100, 23);
-            textBoxMeslekıGelısım.TabIndex = 35;
-            // 
-            // textBoxBılgısayTasarımUy
-            // 
-            textBoxBılgısayTasarımUy.Location = new Point(639, 228);
-            textBoxBılgısayTasarımUy.Name = "textBoxBılgısayTasarımUy";
-            textBoxBılgısayTasarımUy.Size = new Size(100, 23);
-            textBoxBılgısayTasarımUy.TabIndex = 34;
-            // 
-            // textBoxProgramlamaTemellerı
-            // 
-            textBoxProgramlamaTemellerı.Location = new Point(639, 203);
-            textBoxProgramlamaTemellerı.Name = "textBoxProgramlamaTemellerı";
-            textBoxProgramlamaTemellerı.Size = new Size(100, 23);
-            textBoxProgramlamaTemellerı.TabIndex = 33;
-            // 
-            // textBoxBılısımTekno
-            // 
-            textBoxBılısımTekno.Location = new Point(639, 177);
-            textBoxBılısımTekno.Name = "textBoxBılısımTekno";
-            textBoxBılısımTekno.Size = new Size(100, 23);
-            textBoxBılısımTekno.TabIndex = 32;
-            // 
-            // textBoxUzay
-            // 
-            textBoxUzay.Location = new Point(639, 153);
-            textBoxUzay.Name = "textBoxUzay";
-            textBoxUzay.Size = new Size(100, 23);
-            textBoxUzay.TabIndex = 31;
-            // 
-            // textBoxSecmelıDın
-            // 
-            textBoxSecmelıDın.Location = new Point(639, 127);
-            textBoxSecmelıDın.Name = "textBoxSecmelıDın";
-            textBoxSecmelıDın.Size = new Size(100, 23);
-            textBoxSecmelıDın.TabIndex = 30;
+            textBoxBeden.Location = new Point(639, 78);
+            textBoxBeden.Name = "textBoxBeden";
+            textBoxBeden.Size = new Size(100, 23);
+            textBoxBeden.TabIndex = 28;
             // 
             // textBoxSanat
             // 
@@ -378,23 +338,54 @@
             textBoxSanat.Size = new Size(100, 23);
             textBoxSanat.TabIndex = 29;
             // 
-            // textBoxBeden
+            // textBoxSecmelıDın
             // 
-            textBoxBeden.Location = new Point(639, 78);
-            textBoxBeden.Name = "textBoxBeden";
-            textBoxBeden.Size = new Size(100, 23);
-            textBoxBeden.TabIndex = 28;
+            textBoxSecmelıDın.Location = new Point(639, 127);
+            textBoxSecmelıDın.Name = "textBoxSecmelıDın";
+            textBoxSecmelıDın.Size = new Size(100, 23);
+            textBoxSecmelıDın.TabIndex = 30;
             // 
-            // buttonBelgeBulucu
+            // textBoxUzay
             // 
-            buttonBelgeBulucu.Font = new Font("Segoe UI", 20F);
-            buttonBelgeBulucu.Location = new Point(3, 302);
-            buttonBelgeBulucu.Name = "buttonBelgeBulucu";
-            buttonBelgeBulucu.Size = new Size(230, 112);
-            buttonBelgeBulucu.TabIndex = 37;
-            buttonBelgeBulucu.Text = "Genel Ortalaman ve Belgen ";
-            buttonBelgeBulucu.UseVisualStyleBackColor = true;
-            buttonBelgeBulucu.Click += buttonBelgeBulucu_click;
+            textBoxUzay.Location = new Point(639, 153);
+            textBoxUzay.Name = "textBoxUzay";
+            textBoxUzay.Size = new Size(100, 23);
+            textBoxUzay.TabIndex = 31;
+            // 
+            // textBoxBılısımTekno
+            // 
+            textBoxBılısımTekno.Location = new Point(639, 177);
+            textBoxBılısımTekno.Name = "textBoxBılısımTekno";
+            textBoxBılısımTekno.Size = new Size(100, 23);
+            textBoxBılısımTekno.TabIndex = 32;
+            // 
+            // textBoxProgramlamaTemellerı
+            // 
+            textBoxProgramlamaTemellerı.Location = new Point(639, 203);
+            textBoxProgramlamaTemellerı.Name = "textBoxProgramlamaTemellerı";
+            textBoxProgramlamaTemellerı.Size = new Size(100, 23);
+            textBoxProgramlamaTemellerı.TabIndex = 33;
+            // 
+            // textBoxBılgısayTasarımUy
+            // 
+            textBoxBılgısayTasarımUy.Location = new Point(639, 228);
+            textBoxBılgısayTasarımUy.Name = "textBoxBılgısayTasarımUy";
+            textBoxBılgısayTasarımUy.Size = new Size(100, 23);
+            textBoxBılgısayTasarımUy.TabIndex = 34;
+            // 
+            // textBoxMeslekıGelısım
+            // 
+            textBoxMeslekıGelısım.Location = new Point(639, 252);
+            textBoxMeslekıGelısım.Name = "textBoxMeslekıGelısım";
+            textBoxMeslekıGelısım.Size = new Size(100, 23);
+            textBoxMeslekıGelısım.TabIndex = 35;
+            // 
+            // textBoxDısıplınMıktarı
+            // 
+            textBoxDısıplınMıktarı.Location = new Point(639, 278);
+            textBoxDısıplınMıktarı.Name = "textBoxDısıplınMıktarı";
+            textBoxDısıplınMıktarı.Size = new Size(100, 23);
+            textBoxDısıplınMıktarı.TabIndex = 36;
             // 
             // labelSonucu
             // 
@@ -408,12 +399,23 @@
             labelSonucu.Text = " ";
             labelSonucu.Visible = false;
             // 
-            // Form1
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 18F);
+            label1.Location = new Point(199, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(290, 32);
+            label1.TabIndex = 75;
+            label1.Text = "9.SINIF  BİLİŞİM BÖLÜMÜ ";
+            // 
+            // BIlısım9
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
             ClientSize = new Size(815, 426);
+            Controls.Add(label1);
             Controls.Add(labelSonucu);
             Controls.Add(buttonBelgeBulucu);
             Controls.Add(textBoxDısıplınMıktarı);
@@ -452,32 +454,30 @@
             Controls.Add(label5);
             Controls.Add(label3);
             Controls.Add(label2);
-            Controls.Add(label1);
-            Name = "Form1";
+            Name = "BIlısım9";
             Text = "Belgen Ne ? ";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private Label label1;
+        private Button buttonBelgeBulucu;
         private Label label2;
         private Label label3;
-        private Label label4;
         private Label label5;
-        private Label label6;
+        private Label label4;
         private Label label7;
-        private Label label8;
+        private Label label6;
         private Label label9;
-        private Label label10;
+        private Label label8;
         private Label label11;
-        private Label label12;
+        private Label label10;
         private Label label13;
-        private Label label14;
+        private Label label12;
         private Label label15;
-        private Label label16;
+        private Label label14;
         private Label label17;
+        private Label label16;
         private TextBox textBoxEdebıyat;
         private TextBox textBoxMat;
         private TextBox textBoxIngılızce;
@@ -489,16 +489,16 @@
         private TextBox textBoxDınBılgıs;
         private Label label18;
         private Label label19;
-        private TextBox textBoxDısıplınMıktarı;
-        private TextBox textBoxMeslekıGelısım;
-        private TextBox textBoxBılgısayTasarımUy;
-        private TextBox textBoxProgramlamaTemellerı;
-        private TextBox textBoxBılısımTekno;
-        private TextBox textBoxUzay;
-        private TextBox textBoxSecmelıDın;
-        private TextBox textBoxSanat;
         private TextBox textBoxBeden;
-        private Button buttonBelgeBulucu;
+        private TextBox textBoxSanat;
+        private TextBox textBoxSecmelıDın;
+        private TextBox textBoxUzay;
+        private TextBox textBoxBılısımTekno;
+        private TextBox textBoxProgramlamaTemellerı;
+        private TextBox textBoxBılgısayTasarımUy;
+        private TextBox textBoxMeslekıGelısım;
+        private TextBox textBoxDısıplınMıktarı;
         private Label labelSonucu;
+        private Label label1;
     }
 }

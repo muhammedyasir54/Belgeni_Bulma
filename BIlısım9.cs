@@ -1,8 +1,8 @@
 namespace belge
 {
-    public partial class Form1 : Form
+    public partial class BIlýsým9 : Form
     {
-        public Form1()
+        public BIlýsým9()
         {
             InitializeComponent();
         }
@@ -12,7 +12,7 @@ namespace belge
         }
         double mat()
         {
-            return Convert.ToDouble(textBoxMat.Text);        
+            return Convert.ToDouble(textBoxMat.Text);
         }
         double ýng()
         {
@@ -31,8 +31,8 @@ namespace belge
             return Convert.ToDouble(textBoxBýy.Text);
         }
         double tarýh()
-        { 
-            return  Convert.ToDouble(textBoxTar.Text);
+        {
+            return Convert.ToDouble(textBoxTar.Text);
         }
         double cograf()
         {
@@ -41,10 +41,12 @@ namespace belge
         double dýnKulturu()
         {
             return Convert.ToDouble(textBoxDýnBýlgýs.Text);
-        }double beden()
+        }
+        double beden()
         {
             return Convert.ToDouble(textBoxBeden.Text);
-        }double sanat()
+        }
+        double sanat()
         {
             return Convert.ToDouble(textBoxSanat.Text);
         }
@@ -77,28 +79,28 @@ namespace belge
         {
             return Convert.ToDouble(textBoxDýsýplýnMýktarý.Text);
         }
-         
-         
+
+
 
 
         private void buttonBelgeBulucu_click(object sender, EventArgs e)
         {
 
-            double  çarpýmlarý = (edb()*5)+(mat()*5)+(ýng()*4)+(fýzýk()*2)+(kýmya()*2)+(býyolcý()*2)+(tarýh()*2)+(cograf()*2)+(dýnKulturu()*2)+(beden()*2)+(sanat()*2)+(temelDýn()*1)+(uzay()*2)+(BTT()*3)+(PT()*4)+( tasýrým()*2)+(Mga()*2)  ;
-            double genelort = çarpýmlarý / 40;
-            
-            
-            
-            
-            if (edb() > 100.0 || edb() < 0 || mat() > 100.0 || mat() < 0 || ýng() > 100.0 || ýng() < 0 || fýzýk() > 100.0 || fýzýk() < 0 || býyolcý() > 100.0 || býyolcý() < 0 || tarýh() > 100.0 || tarýh() < 0 || cograf() > 100.0 || cograf() < 0 || dýnKulturu() > 100.0 || dýnKulturu() < 0 || beden() > 100.0 || beden() < 0 || /*dýnKulturu() > 100.0 || dýnKulturu() < 0 ||*/ uzay() > 100.0 || uzay() < 0 || BTT() > 100.0 || BTT() < 0 || PT() > 100.0 || PT() < 0 || Mga() > 100.0 || Mga() < 0|| tasýrým() > 100.0||tasýrým()<0)
+            double çarpýmlarý = (edb() * 5) + (mat() * 5) + (ýng() * 4) + (fýzýk() * 2) + (kýmya() * 2) + (býyolcý() * 2) + (tarýh() * 2) + (cograf() * 2) + (dýnKulturu() * 2) + (beden() * 2) + (sanat() * 2) + (temelDýn() * 1) + (uzay() * 2) + (BTT() * 3) + (PT() * 4) + (tasýrým() * 2) + (Mga() * 2);
+            double genelort = çarpýmlarý / 44;
+
+
+
+
+            if (edb() > 100.0 || edb() < 0 || mat() > 100.0 || mat() < 0 || ýng() > 100.0 || ýng() < 0 || fýzýk() > 100.0 || fýzýk() < 0 || býyolcý() > 100.0 || býyolcý() < 0 || tarýh() > 100.0 || tarýh() < 0 || cograf() > 100.0 || cograf() < 0 || dýnKulturu() > 100.0 || dýnKulturu() < 0 || beden() > 100.0 || beden() < 0 || /*dýnKulturu() > 100.0 || dýnKulturu() < 0 ||*/ uzay() > 100.0 || uzay() < 0 || BTT() > 100.0 || BTT() < 0 || PT() > 100.0 || PT() < 0 || Mga() > 100.0 || Mga() < 0 || tasýrým() > 100.0 || tasýrým() < 0)
             {
                 MessageBox.Show("Yanlýþ sayýsý giriþi yaptýnýz! Lütfen tekrar deneyin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 //MessageBox.Show( "yanlýþ sayý giriþi ","sayý hatasý ", MessageBoxButtons.OK, MessageBoxIcon.Information);                 
             }
             else
-            { 
+            {
                 if (edb() < 70)
-                {   
+                {
                     labelSonucu.Text = "Edebiyat notu 70 altý olduðu için belge alamazsýnýz.";
                     labelSonucu.Visible = true;
                 }
@@ -123,7 +125,7 @@ namespace belge
                     labelSonucu.Visible = true;
                 }
             }
-           
+
 
 
 
@@ -176,5 +178,25 @@ namespace belge
 
 
         }
-    }   
+
+        private void sýnýflarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void sýnýflarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxEdebýyat_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+    }
 }
