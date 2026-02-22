@@ -92,10 +92,9 @@ namespace belge
 
 
 
-            if (edb() > 100.0 || edb() < 0 || mat() > 100.0 || mat() < 0 || ýng() > 100.0 || ýng() < 0 || fýzýk() > 100.0 || fýzýk() < 0 || býyolcý() > 100.0 || býyolcý() < 0 || tarýh() > 100.0 || tarýh() < 0 || cograf() > 100.0 || cograf() < 0 || dýnKulturu() > 100.0 || dýnKulturu() < 0 || beden() > 100.0 || beden() < 0 || /*dýnKulturu() > 100.0 || dýnKulturu() < 0 ||*/ uzay() > 100.0 || uzay() < 0 || BTT() > 100.0 || BTT() < 0 || PT() > 100.0 || PT() < 0 || Mga() > 100.0 || Mga() < 0 || tasýrým() > 100.0 || tasýrým() < 0)
+            if (edb() > 100.0 || edb() < 0 || mat() > 100.0 || mat() < 0 || ýng() > 100.0 || ýng() < 0 || fýzýk() > 100.0 || fýzýk() < 0 || býyolcý() > 100.0 || býyolcý() < 0 || tarýh() > 100.0 || tarýh() < 0 || cograf() > 100.0 || cograf() < 0 || dýnKulturu() > 100.0 || dýnKulturu() < 0 || beden() > 100.0 || beden() < 0 ||  uzay() > 100.0 || uzay() < 0 || BTT() > 100.0 || BTT() < 0 || PT() > 100.0 || PT() < 0 || Mga() > 100.0 || Mga() < 0 || tasýrým() > 100.0 || tasýrým() < 0)
             {
                 MessageBox.Show("Yanlýþ sayýsý giriþi yaptýnýz! Lütfen tekrar deneyin.", "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                //MessageBox.Show( "yanlýþ sayý giriþi ","sayý hatasý ", MessageBoxButtons.OK, MessageBoxIcon.Information);                 
             }
             else
             {
@@ -125,78 +124,7 @@ namespace belge
                     labelSonucu.Visible = true;
                 }
             }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //else if (edb() < 70)
-            //{
-            //    labelSonucu.Text = "Edebiyat ortalamanýz 70 den küçük olduðu için belge alamazsýnýz ";
-            //    labelSonucu.Visible = true;
-            //}
-            //else if (dýsýplýn() > 0)
-            //{
-            //    labelSonucu.Text = "Disiplin cezasý aldýðýný için belge alamazsýnýz  ";
-            //    labelSonucu.Visible = true;
-            //}
-            //else if ( genelort<75.00 )
-            //{
-            //    labelSonucu.Text = $"Genel ortalamýnýz {genelort} olduðu için belge  alamadýnýz  ";
-            //    labelSonucu.Visible = true;
-            //}
-            //else if (   genelort<85.00 )
-            //{
-            //    labelSonucu.Text = $"Genel ortalamýnýz {genelort} olduðu için Teþekkür belgesi aldýnýz ";
-            //    labelSonucu.Visible = true;
-            //}
-            //else
-            //{
-            //    labelSonucu.Text = $"Genel ortalamýnýz {genelort} olduðu için  Takdir belgesi  belgesi aldýnýz ";
-            //    labelSonucu.Visible = true;
-            //}
-
-
-        }
-
-        private void sýnýflarToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void sýnýflarToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBoxEdebýyat_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+ 
+        }  
     }
 }

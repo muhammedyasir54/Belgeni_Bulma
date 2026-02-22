@@ -31,12 +31,18 @@
             menuStrip1 = new MenuStrip();
             sINIFSEÇİMİToolStripMenuItem = new ToolStripMenuItem();
             sINIFLARToolStripMenuItem = new ToolStripMenuItem();
-            bÖLÜMLERToolStripMenuItem = new ToolStripMenuItem();
             bilişimToolStripMenuItem = new ToolStripMenuItem();
             elektrikToolStripMenuItem = new ToolStripMenuItem();
             hazırlıkToolStripMenuItem = new ToolStripMenuItem();
-            label1 = new Label();
             sınıflarToolStripMenuItem = new ToolStripMenuItem();
+            bilişimBölümüToolStripMenuItem = new ToolStripMenuItem();
+            aLTDallarıToolStripMenuItem = new ToolStripMenuItem();
+            yazılımGeliştirmeDalıToolStripMenuItem = new ToolStripMenuItem();
+            ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem = new ToolStripMenuItem();
+            uçakBölümüToolStripMenuItem = new ToolStripMenuItem();
+            dallarıToolStripMenuItem = new ToolStripMenuItem();
+            uçakElektroniğiDalıToolStripMenuItem = new ToolStripMenuItem();
+            uçakGövdeMotorDalıToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -45,81 +51,119 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { sINIFSEÇİMİToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(843, 53);
+            menuStrip1.Size = new Size(999, 55);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
             // sINIFSEÇİMİToolStripMenuItem
             // 
             sINIFSEÇİMİToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { sINIFLARToolStripMenuItem, sınıflarToolStripMenuItem });
-            sINIFSEÇİMİToolStripMenuItem.Font = new Font("Tahoma", 27.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            sINIFSEÇİMİToolStripMenuItem.Font = new Font("Sitka Banner", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             sINIFSEÇİMİToolStripMenuItem.Name = "sINIFSEÇİMİToolStripMenuItem";
-            sINIFSEÇİMİToolStripMenuItem.Size = new Size(293, 49);
-            sINIFSEÇİMİToolStripMenuItem.Text = "SINIF SEÇİMİ";
+            sINIFSEÇİMİToolStripMenuItem.Size = new Size(243, 51);
+            sINIFSEÇİMİToolStripMenuItem.Text = "Seviyenizi seçiniz";
             // 
             // sINIFLARToolStripMenuItem
             // 
-            sINIFLARToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bÖLÜMLERToolStripMenuItem, bilişimToolStripMenuItem, elektrikToolStripMenuItem, hazırlıkToolStripMenuItem });
+            sINIFLARToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bilişimToolStripMenuItem, elektrikToolStripMenuItem, hazırlıkToolStripMenuItem });
             sINIFLARToolStripMenuItem.Font = new Font("Tahoma", 24F, FontStyle.Regular, GraphicsUnit.Point, 162);
             sINIFLARToolStripMenuItem.Name = "sINIFLARToolStripMenuItem";
             sINIFLARToolStripMenuItem.Size = new Size(259, 44);
             sINIFLARToolStripMenuItem.Text = "9.SINIFLAR";
             // 
-            // bÖLÜMLERToolStripMenuItem
-            // 
-            bÖLÜMLERToolStripMenuItem.Font = new Font("Tahoma", 20.25F);
-            bÖLÜMLERToolStripMenuItem.Name = "bÖLÜMLERToolStripMenuItem";
-            bÖLÜMLERToolStripMenuItem.Size = new Size(282, 38);
-            bÖLÜMLERToolStripMenuItem.Text = "BÖLÜMLER";
-            // 
             // bilişimToolStripMenuItem
             // 
             bilişimToolStripMenuItem.Font = new Font("Tahoma", 20.25F);
             bilişimToolStripMenuItem.Name = "bilişimToolStripMenuItem";
-            bilişimToolStripMenuItem.Size = new Size(282, 38);
-            bilişimToolStripMenuItem.Text = "Bilişim";
+            bilişimToolStripMenuItem.Size = new Size(276, 38);
+            bilişimToolStripMenuItem.Text = "Bilişim Bölümü";
             bilişimToolStripMenuItem.Click += bilişimToolStripMenuItem_Click;
             // 
             // elektrikToolStripMenuItem
             // 
             elektrikToolStripMenuItem.Font = new Font("Tahoma", 20.25F);
             elektrikToolStripMenuItem.Name = "elektrikToolStripMenuItem";
-            elektrikToolStripMenuItem.Size = new Size(282, 38);
-            elektrikToolStripMenuItem.Text = "Elektrik";
+            elektrikToolStripMenuItem.Size = new Size(276, 38);
+            elektrikToolStripMenuItem.Text = "Elektrik Bölümü";
             elektrikToolStripMenuItem.Click += elektrikToolStripMenuItem_Click;
             // 
             // hazırlıkToolStripMenuItem
             // 
             hazırlıkToolStripMenuItem.Font = new Font("Tahoma", 20.25F);
             hazırlıkToolStripMenuItem.Name = "hazırlıkToolStripMenuItem";
-            hazırlıkToolStripMenuItem.Size = new Size(282, 38);
-            hazırlıkToolStripMenuItem.Text = "HAZIRLIK SINIF";
+            hazırlıkToolStripMenuItem.Size = new Size(276, 38);
+            hazırlıkToolStripMenuItem.Text = "Hazırlık Sınıfı";
             hazırlıkToolStripMenuItem.Click += hazırlıkToolStripMenuItem_Click;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 20F);
-            label1.Location = new Point(392, 223);
-            label1.Name = "label1";
-            label1.Size = new Size(451, 111);
-            label1.TabIndex = 1;
-            label1.Text = "Üs tarafdaki sınıf seç menüsünden \r\nHangi sınıf olduğunu seçin ardından \r\nHangi bölüm olduğunu seçiniz\r\n";
             // 
             // sınıflarToolStripMenuItem
             // 
+            sınıflarToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bilişimBölümüToolStripMenuItem, uçakBölümüToolStripMenuItem });
             sınıflarToolStripMenuItem.Font = new Font("Tahoma", 24F);
             sınıflarToolStripMenuItem.Name = "sınıflarToolStripMenuItem";
             sınıflarToolStripMenuItem.Size = new Size(259, 44);
             sınıflarToolStripMenuItem.Text = "10.Sınıflar";
+            // 
+            // bilişimBölümüToolStripMenuItem
+            // 
+            bilişimBölümüToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { aLTDallarıToolStripMenuItem, yazılımGeliştirmeDalıToolStripMenuItem, ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem });
+            bilişimBölümüToolStripMenuItem.Font = new Font("Tahoma", 18F);
+            bilişimBölümüToolStripMenuItem.Name = "bilişimBölümüToolStripMenuItem";
+            bilişimBölümüToolStripMenuItem.Size = new Size(241, 34);
+            bilişimBölümüToolStripMenuItem.Text = "Bilişim Bölümü";
+            // 
+            // aLTDallarıToolStripMenuItem
+            // 
+            aLTDallarıToolStripMenuItem.Name = "aLTDallarıToolStripMenuItem";
+            aLTDallarıToolStripMenuItem.Size = new Size(479, 34);
+            aLTDallarıToolStripMenuItem.Text = "Dalları";
+            // 
+            // yazılımGeliştirmeDalıToolStripMenuItem
+            // 
+            yazılımGeliştirmeDalıToolStripMenuItem.Name = "yazılımGeliştirmeDalıToolStripMenuItem";
+            yazılımGeliştirmeDalıToolStripMenuItem.Size = new Size(479, 34);
+            yazılımGeliştirmeDalıToolStripMenuItem.Text = "Yazılım Geliştirme Dalı";
+            yazılımGeliştirmeDalıToolStripMenuItem.Click += yazılımGeliştirmeDalıToolStripMenuItem_Click;
+            // 
+            // ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem
+            // 
+            ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem.Name = "ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem";
+            ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem.Size = new Size(479, 34);
+            ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem.Text = "Ağ İşletmenliği ve Siber Güvenlik Dalı";
+            ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem.Click += ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem_Click;
+            // 
+            // uçakBölümüToolStripMenuItem
+            // 
+            uçakBölümüToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dallarıToolStripMenuItem, uçakElektroniğiDalıToolStripMenuItem, uçakGövdeMotorDalıToolStripMenuItem });
+            uçakBölümüToolStripMenuItem.Font = new Font("Tahoma", 18F);
+            uçakBölümüToolStripMenuItem.Name = "uçakBölümüToolStripMenuItem";
+            uçakBölümüToolStripMenuItem.Size = new Size(241, 34);
+            uçakBölümüToolStripMenuItem.Text = "Uçak Bölümü";
+            // 
+            // dallarıToolStripMenuItem
+            // 
+            dallarıToolStripMenuItem.Name = "dallarıToolStripMenuItem";
+            dallarıToolStripMenuItem.Size = new Size(331, 34);
+            dallarıToolStripMenuItem.Text = "Dalları";
+            // 
+            // uçakElektroniğiDalıToolStripMenuItem
+            // 
+            uçakElektroniğiDalıToolStripMenuItem.Name = "uçakElektroniğiDalıToolStripMenuItem";
+            uçakElektroniğiDalıToolStripMenuItem.Size = new Size(331, 34);
+            uçakElektroniğiDalıToolStripMenuItem.Text = "Uçak Elektroniği Dalı";
+            uçakElektroniğiDalıToolStripMenuItem.Click += uçakElektroniğiDalıToolStripMenuItem_Click;
+            // 
+            // uçakGövdeMotorDalıToolStripMenuItem
+            // 
+            uçakGövdeMotorDalıToolStripMenuItem.Name = "uçakGövdeMotorDalıToolStripMenuItem";
+            uçakGövdeMotorDalıToolStripMenuItem.Size = new Size(331, 34);
+            uçakGövdeMotorDalıToolStripMenuItem.Text = "Uçak Gövde-Motor Dalı";
             // 
             // Menü_sayfası
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Silver;
-            ClientSize = new Size(843, 356);
-            Controls.Add(label1);
+            ClientSize = new Size(999, 356);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Menü_sayfası";
@@ -135,11 +179,17 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem sINIFSEÇİMİToolStripMenuItem;
         private ToolStripMenuItem sINIFLARToolStripMenuItem;
-        private ToolStripMenuItem bÖLÜMLERToolStripMenuItem;
         private ToolStripMenuItem bilişimToolStripMenuItem;
         private ToolStripMenuItem elektrikToolStripMenuItem;
         private ToolStripMenuItem hazırlıkToolStripMenuItem;
-        private Label label1;
         private ToolStripMenuItem sınıflarToolStripMenuItem;
+        private ToolStripMenuItem bilişimBölümüToolStripMenuItem;
+        private ToolStripMenuItem uçakBölümüToolStripMenuItem;
+        private ToolStripMenuItem aLTDallarıToolStripMenuItem;
+        private ToolStripMenuItem yazılımGeliştirmeDalıToolStripMenuItem;
+        private ToolStripMenuItem ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem;
+        private ToolStripMenuItem dallarıToolStripMenuItem;
+        private ToolStripMenuItem uçakElektroniğiDalıToolStripMenuItem;
+        private ToolStripMenuItem uçakGövdeMotorDalıToolStripMenuItem;
     }
 }

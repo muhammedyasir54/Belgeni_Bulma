@@ -246,7 +246,6 @@
             textBoxEdebıyat.Name = "textBoxEdebıyat";
             textBoxEdebıyat.Size = new Size(100, 23);
             textBoxEdebıyat.TabIndex = 17;
-            textBoxEdebıyat.TextChanged += textBoxEdebıyat_TextChanged;
             // 
             // textBoxMat
             // 
@@ -455,7 +454,7 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Name = "BIlısım9";
-            Text = "Belgen Ne ? ";
+            Text = "Bilişim  Bölümü";
             ResumeLayout(false);
             PerformLayout();
         }

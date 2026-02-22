@@ -14,28 +14,6 @@ namespace belge
         {
             InitializeComponent();
         }
-
-        private void sINIFSEÇİMİToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-
-        }
-
-        private void sINIFToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            //sınıf seçimi yapılna yer
-
-
-        }
-
-        private void bılısım9ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-            BIlısım9 blm9 = new BIlısım9();
-            blm9.Show();
-
-        }
-
         private void bilişimToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
@@ -51,10 +29,27 @@ namespace belge
             eltrık9.Show();
         }
 
-        private void  hazırlıkToolStripMenuItem_Click(object sender, EventArgs e)
+        private void hazırlıkToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Hazırlık hazırlık = new Hazırlık();
             hazırlık.Show();
+        }
+        private void yazılımGeliştirmeDalıToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BılısımYazılım10 bılsım10 = new BılısımYazılım10();
+            bılsım10.Show();
+        }
+
+        private void uçakElektroniğiDalıToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UcakELEktrık10 ucak10 = new UcakELEktrık10();
+            ucak10.Show();
+        }
+
+        private void ağİşletmenliğiVeSiberGüvenlikDalıToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            bılısımWEB10 bılısımWEB10 = new bılısımWEB10();
+            bılısımWEB10.Show();
         }
     }
 }
